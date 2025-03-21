@@ -181,6 +181,10 @@ footer{
     #project, .about {
         font-size: 35px;
     }
+    .contacts{
+        margin: 0 20% 0 25%;
+        width: 32%;
+    }
 }
 
 
