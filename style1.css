@@ -1,0 +1,150 @@
+@import url(https://db.onlinewebfonts.com/c/9a7e574c3eda05d71d03345d3f9e268e?family=Futura+LT+W01+Light+Oblique);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('./11062b_b75407a670324c39babd882c6c01d983f000.avif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.main{
+    height: 1000px;
+    width: 100%;
+    
+}
+
+
+
+.logo{
+    height:100px;
+    width:100px;
+    margin:auto;
+    
+}
+.logo img{
+    height:70%;
+    width:70%;
+   
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#project{
+    
+    font-size: 85px;
+    text-align: center; 
+}
+.white{
+    background-color: white;
+}
+.projects-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+}
+
+.project p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+a{
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.background-image{
+    background-image: url(./about.avif);
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 5;
+}
+.about{
+    font-size: 85px;
+    text-align: center;
+}
+.about-txt{
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.ctact{
+    background-image: url(./contact.jpg);
+}
+.contacts{
+    margin: 0 30% 0 35%;
+    width: 32%;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width:100%;
+}
+.input{
+  width: 100%;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.message{
+    height: 90px;
+}
+
+#btn{
+  margin-left: auto;
+  width: 50px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border: 1px solid;
+  border-radius: 5px;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.footer{
+    display: flex;
+    gap: 10px;
+
+}
+.social{
+    height: 30px;
+    margin-left: 20px;
+}
