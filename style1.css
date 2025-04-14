@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url('./11062b_b75407a670324c39babd882c6c01d983f000.avif') no-repeat center center fixed;
+    background: url('./Src/11062b_b75407a670324c39babd882c6c01d983f000.avif') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Futura LT W01 Light Oblique', sans-serif;
 }
@@ -81,7 +81,7 @@ html {
     scroll-behavior: smooth;
 }
 .background-image{
-    background-image: url(./about.avif);
+    background-image: url(./Src/about.avif);
     width: 100%;
     height: 400px;
     position: relative;
@@ -102,7 +102,7 @@ html {
     padding-right: 25%;
 }
 .ctact{
-    background-image: url(./contact.jpg);
+    background-image: url(./Src/contact.jpg);
 }
 .contacts{
     margin: 0 30% 0 35%;
